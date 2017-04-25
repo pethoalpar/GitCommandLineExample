@@ -26,3 +26,8 @@ git branch -d [branch name] - delete the local branch
 
 git branch - display the branches
 
+git branch -r - display the repositories branches
+
+git push origin --delete [the_remote_branch] - delete repository branch
+
+git fetch [remote] --prune - delete multiple obsolete tracking branches
