@@ -4,15 +4,15 @@ git init - to initialize the local git repository
 
 git add . - add all files to the index
 
-git status - Show the working tree status
+git status - show the working tree status
 
-git-commit - Record changes to the repository
+git-commit - record changes to the repository
 
 git commit -m "commit message"
 
 git remote add origin [url] - add remote repository.
 
-git-push - Update remote refs along with associated objects
+git-push - update remote refs along with associated objects
 
 git push -u origin master
 
@@ -31,3 +31,7 @@ git branch -r - display the repositories branches
 git push origin --delete [the_remote_branch] - delete repository branch
 
 git fetch [remote] --prune - delete multiple obsolete tracking branches
+
+git pull --all - update local branches which track remote branches
+
+git pull [remote] [branch] - update a specific branch
