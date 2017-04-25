@@ -38,7 +38,7 @@ git show [commit id] -see details of a commit
 
 git log - see recent commit history
 
-git log --all --full-history -- */[file name].* - see a file history
+git log --all --full-history -- \*/[file name].\* - see a file history
 
 <H2>Work with remotes</H2>
 
