@@ -90,6 +90,8 @@ git reset --hard origin/master - reset to remote state
 
 git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' - display the branches and comitter
 
+git show [commit] --stat - show all files modified in this commit
+
 <H2>TAG</H2>
 
 git tag [TAG] - create a new tag
