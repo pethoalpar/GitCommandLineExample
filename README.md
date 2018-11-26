@@ -56,6 +56,8 @@ git remote -v - view remote urls
 
 git push origin [branch name] - push the new branch
 
+git remote set-url origin [url] - change the remote url
+
 git clone [repo url] - clone remote repository
 
 <H2>Work with branches</H2>
