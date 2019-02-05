@@ -40,6 +40,8 @@ git log - see recent commit history
 
 git log --all --full-history -- \*/[file name].\* - see a file history
 
+git-fsck - Verifies the connectivity and validity of the objects in the database
+
 <H2>Work with remotes</H2>
 
 git remote add origin [url] - add remote repository.
