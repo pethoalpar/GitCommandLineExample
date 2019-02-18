@@ -30,9 +30,9 @@ git diff - see non-staged (non-added) changes to existing files
 
 git diff origin/master - see differences between local changes and master
 
-git diff [first commit id] [seccond commit id] - see differences between two commits
+git diff [first commit id] [second commit id] - see differences between two commits
 
-git diff --name-only [first commit id] [seccond commit id] - see the files changed between two commits
+git diff --name-only [first commit id] [second commit id] - see the files changed between two commits
 
 git show [commit id] -see details of a commit
 
