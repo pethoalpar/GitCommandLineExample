@@ -1,10 +1,10 @@
-<H1>Commands:</H1>
+# Commands:
 
-<H2>Initialize a local repository</H2>
+## Initialize a local repository
 
 git init - to initialize the local git repository
 
-<H2>Add changes and commit</H2>
+## Add changes and commit
 
 git add . - add all files to the index
 
@@ -20,7 +20,7 @@ git commit --amend -m "New commit message" - change message of last commit
 
 git revert [commit id] - revert a commit
 
-<H2>See the status</H2>
+## See the status
 
 git status - show the working tree status
 
@@ -40,9 +40,9 @@ git log - see recent commit history
 
 git log --all --full-history -- \*/[file name].\* - see a file history
 
-git-fsck - Verifies the connectivity and validity of the objects in the database
+git fsck - Verifies the connectivity and validity of the objects in the database
 
-<H2>Work with remotes</H2>
+## Work with remotes
 
 git remote add origin [url] - add remote repository.
 
@@ -62,7 +62,7 @@ git remote set-url origin [url] - change the remote url
 
 git clone [repo url] - clone remote repository
 
-<H2>Work with branches</H2>
+## Work with branches
 
 git checkout -b  [branch name] - create and switch to the new branch
 
@@ -84,7 +84,7 @@ git diff branch-name - see differences between the current state and a branch
 
 git clean -f - delete all untracked files
 
-<H2>Util</H2>
+## Util
 
 git gc - performs garbage collection on your repository
 
@@ -96,13 +96,13 @@ git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' - 
 
 git show [commit] --stat - show all files modified in this commit
 
-<H2>TAG</H2>
+## TAG
 
 git tag [TAG] - create a new tag
 
 git push origin [TAG] - push a tag
 
-<H2>Git config</H2>
+## Git config
 
 git config --global user.name "Petho Alpar" - add user name to your config
 
