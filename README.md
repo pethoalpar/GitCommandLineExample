@@ -64,6 +64,8 @@ git remote set-url origin [url] - change the remote url
 
 git clone [repo url] - clone remote repository
 
+git fetch - downloads commits, files, and refs from a remote repository into your local repo.
+
 ## Work with branches
 
 git checkout -b  [branch name] - create and switch to the new branch
