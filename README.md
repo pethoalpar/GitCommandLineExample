@@ -106,6 +106,10 @@ git tag [TAG] - create a new tag
 
 git push origin [TAG] - push a tag
 
+git push --delete origin [TAG] - delete tag from origin
+
+git tag --delete [TAG] - delete tag local
+
 ## Git config
 
 git config --global user.name "Petho Alpar" - add user name to your config
