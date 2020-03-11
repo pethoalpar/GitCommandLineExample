@@ -42,6 +42,8 @@ git log --all --full-history -- \*/[file name].\* - see a file history
 
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit - better log
 
+git log -p [file name]
+
 git fsck - Verifies the connectivity and validity of the objects in the database
 
 ## Work with remotes
