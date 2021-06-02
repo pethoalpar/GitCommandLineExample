@@ -58,6 +58,8 @@ git pull --all - update local branches which track remote branches
 
 git pull [remote] [branch] - update a specific branch
 
+git pull origin master --allow-unrelated-histories - pull and merge unrelated histories
+
 git remote -v - view remote urls
 
 git push origin [branch name] - push the new branch
